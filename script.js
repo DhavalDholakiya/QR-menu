@@ -13,11 +13,13 @@ const menuData = [
         name: "Upma",
         price: "14",
         description: "Classic vegetable upma with aromatic spices.",
+        images: ["assets/menu-images/Breakfast/Upma.jpg"],
       },
       {
         name: "Stuffed Paratha's",
         price: "Aloo Paratha OR Methi Paratha 16\nCheese Paratha OR Paneer Paratha 19",
         description: "Fresh whole wheat stuffed parathas, served with yogurt & pickle.",
+        images: ["assets/menu-images/Breakfast/Stuffed Paratha.jpg"],
       },
       {
         name: "Poori Bhaji",
@@ -34,11 +36,13 @@ const menuData = [
         price: "17",
         description:
           "A Gujarati Specialty! Spiced flatbread served with a flavorful dry potato bhaji.",
+        images: ["assets/menu-images/Breakfast/Thepla Platter.jpg"],
       },
       {
         name: "Maska Bun",
         price: "Soft bun with sweet cream 6 | With Chai 8\nCheese Honey Maska Bun 9 | With Chai 11",
         description: "",
+        images: ["assets/menu-images/Breakfast/maska bun with sweet butter.jpg"],
       },
       {
         name: "Egg Paratha",
@@ -56,6 +60,7 @@ const menuData = [
         name: "Masala Omelette",
         price: "18",
         description: "Masala omelette with onions, tomatoes, chillies, toast & chai.",
+        images: ["assets/menu-images/Breakfast/Masala Omlette.jpg"],
       },
     ],
   },
@@ -74,6 +79,7 @@ const menuData = [
         price: "22",
         description:
           "Toasted sandwich layered with fresh vegetables, green chutney, served with crispy golden fries. Available with or without cheese.",
+        images: ["assets/menu-images/Sandwich/bombay-sandwich.jpg"],
       },
       {
         name: "Omelette Sandwich",
@@ -91,6 +97,7 @@ const menuData = [
         price: "24",
         description:
           "Tender chicken mixed with creamy mayonnaise in toasted bread, served with crispy fries.",
+        images: ["assets/menu-images/Sandwich/Chicken Mayo Sandwich.jpg"],
       },
       {
         name: "Wraps",
@@ -102,6 +109,7 @@ const menuData = [
         name: "Burgers",
         price: "Peri Peri Aloo Tikki 23 | Paneer 27\nMasala Fried Chicken 27 | Nihari 32",
         description: "Choose your favorite burger, served with fries & Soft Drink or water.",
+        images: ["assets/menu-images/Burger/Burgers.jpg"],
       },
     ],
   },
@@ -126,7 +134,7 @@ const menuData = [
     id: "hot-beverages",
     title: "Hot Beverages",
     items: [
-      { name: "Chai", price: "1.50", description: "" },
+      { name: "Chai", price: "1.50", description: "", images: ["assets/menu-images/Hot Beverages/Chai.jpg"] },
       { name: "Masala Chai", price: "4", description: "" },
       { name: "Masala Chai Big", price: "6", description: "" },
       { name: "Adrak Chai", price: "4", description: "" },
@@ -135,7 +143,12 @@ const menuData = [
       { name: "Zafran Chai", price: "8", description: "" },
       { name: "Americano", price: "10", description: "" },
       { name: "Latte", price: "13", description: "" },
-      { name: "Cuppuccino", price: "13", description: "" },
+      {
+        name: "Cuppuccino",
+        price: "13",
+        description: "",
+        images: ["assets/menu-images/Hot Beverages/Cappucino.jpg"],
+      },
       { name: "Spanish Latte", price: "16", description: "" },
       { name: "Desi Coffee", price: "2", description: "" },
       { name: "Masala Coffee", price: "3", description: "" },
@@ -146,15 +159,23 @@ const menuData = [
     id: "cold-beverages",
     title: "Cold Beverages",
     items: [
-      { name: "Iced Latte", price: "14", description: "" },
+      { name: "Iced Latte", price: "14", description: "", images: ["assets/menu-images/Cold Beverages/Iced latte.jpg"] },
       { name: "Iced Spanish Latte", price: "16", description: "" },
-      { name: "Cold Coffee", price: "15", description: "" },
+      { name: "Cold Coffee", price: "15", description: "", images: ["assets/menu-images/Cold Beverages/Cold Coffee.jpg"] },
       { name: "Lassi Sweet / Salty", price: "13", description: "" },
       { name: "Masala Chaas", price: "13", description: "" },
       { name: "Hibiscus Shikanji", price: "15", description: "" },
       { name: "Fresh Lime Soda / Water", price: "13", description: "" },
-      { name: "Fresh Orange Juice", price: "16", description: "" },
-      { name: "Mojito Mint / Passion Fruit", price: "16", description: "" },
+      { name: "Fresh Orange Juice", price: "16", description: "", images: ["assets/menu-images/Cold Beverages/Orange Juice.jpg"] },
+      {
+        name: "Mojito Mint / Passion Fruit",
+        price: "16",
+        description: "",
+        images: [
+          "assets/menu-images/Cold Beverages/Mint Mojito.jpg",
+          "assets/menu-images/Cold Beverages/Passion Fruit Mojito.jpg",
+        ],
+      },
       { name: "Masala Cola", price: "13", description: "" },
       { name: "Milkshake", price: "20", description: "" },
       { name: "Soft Drink", price: "5", description: "" },
@@ -186,18 +207,27 @@ const menuData = [
         price: "17",
         description:
           "Crispy potato patties served with chutneys, sev and chaat masala, or crispy samosas topped with chickpeas, chutneys, and sev.",
+        images: [
+          "assets/menu-images/Chaat/Aloo Tikki Chaat.jpg",
+          "assets/menu-images/Chaat/Samosa Chaat.jpg",
+        ],
       },
       {
         name: "Samosa Pav OR Vada Pav",
         price: "11",
         description:
           "Crispy samosa or potato fritter served inside soft pav with chutneys, and spices for a flavorful street-food twist.",
+        images: [
+          "assets/menu-images/Chaat/Samosa Pav.jpg",
+          "assets/menu-images/Chaat/Vada Pav.jpg",
+        ],
       },
       {
         name: "Kala Channa Chaat",
         price: "16",
         description:
           "Spiced black chickpeas with green chilies, onions, tomatoes and dry spices.",
+        images: ["assets/menu-images/Chaat/Kala Chaana Chaat.jpg"],
       },
       {
         name: "Papadi Cone OR Katori Chaat",
@@ -209,11 +239,13 @@ const menuData = [
         name: "Pav Bhaji",
         price: "24",
         description: "Spiced mashed vegetables served with butter-toasted pav.",
+        images: ["assets/menu-images/Chaat/Pav Bhaji.jpg"],
       },
       {
         name: "Misal Pav",
         price: "24",
         description: "Spicy sprout curry topped with farsan, served with pav.",
+        images: ["assets/menu-images/Chaat/Misal Pav.jpg"],
       },
     ],
   },
@@ -227,6 +259,7 @@ const menuData = [
           "Aloo OR Methi OR Onion 15 (served with Chai)\nChilli 12 | Cheese Corn 16 | Mix Pakora 18\nPaneer 19",
         description:
           "Crispy, golden fritters made with vegetables coated in spiced gram flour batter and deep-fried to perfection. All pakoras are served in portions of 8 pieces. Mix Pakora is served in 12 pieces.",
+        images: ["assets/menu-images/Pakora's/mix pakora.jpg"],
       },
     ],
   },
@@ -263,6 +296,7 @@ const menuData = [
         price: "33",
         description:
           "A rich, creamy mix of garden vegetables in a buttery tomato gravy with mild spices, served with paratha.",
+        images: ["assets/menu-images/Big Plates/veg makhni.jpg"],
       },
       {
         name: "Veg OR Egg Bhurji Masala",
@@ -281,6 +315,7 @@ const menuData = [
         price: "33",
         description:
           "Tender chicken in a rich, creamy onion gravy with aromatic spices, served with paratha.",
+        images: ["assets/menu-images/Big Plates/Murg-e-nizami.jpg"],
       },
       {
         name: "Chicken Kosha",
@@ -300,9 +335,9 @@ const menuData = [
     title: "Bread / Biryani",
     items: [
       { name: "Roti", price: "2", description: "" },
-      { name: "Plain Paratha", price: "6", description: "" },
+      { name: "Plain Paratha", price: "6", description: "", images: ["assets/menu-images/Bread or biryani/Plain Paratha.jpg"] },
       { name: "Laccha Paratha", price: "7", description: "" },
-      { name: "Bajra Roti", price: "7", description: "" },
+      { name: "Bajra Roti", price: "7", description: "", images: ["assets/menu-images/Bread or biryani/Bajra roti.jpg"] },
       {
         name: "Paneer Biryani",
         price: "28",
@@ -313,6 +348,7 @@ const menuData = [
         price: "30",
         description:
           "Fragrant basmati rice layered with spiced chicken. Served with Raita, Pickle & Papad.",
+        images: ["assets/menu-images/Bread or biryani/Chicken biryani.jpg"],
       },
     ],
   },
@@ -324,42 +360,50 @@ const menuData = [
         name: "Punjabi Samosa Plate",
         price: "10",
         description: "Fried pastry stuffed with spiced potatoes. 2 pcs.",
+        images: ["assets/menu-images/Small Plates/Punjabi Samosa.jpg"],
       },
       {
         name: "Green Chili Paneer",
         price: "22",
         description: "Paneer sauteed with peppers and onions in a zesty green chili sauce.",
+        images: ["assets/menu-images/Small Plates/Green Chili Paneer.jpg"],
       },
       {
         name: "Hara Bhara Kebab",
         price: "20",
         description: "Flavorful patties cooked with spinach, peas, and spices. 6 pcs.",
+        images: ["assets/menu-images/Small Plates/Hara Bhara Kebab.jpg"],
       },
       {
         name: "Cheese & Broccoli Fritters",
         price: "24",
         description: "Crispy golden bites of broccoli and melted cheese, lightly spiced. 6 pcs.",
+        images: ["assets/menu-images/Small Plates/Cheese & Broccoli fritters.jpg"],
       },
       {
         name: "Chicken OR Paneer Tikka Skewers",
         price: "24",
         description:
           "Succulent chicken or paneer tikka marinated in spices and grilled on skewers for a smoky, flavorful bite.",
+        images: ["assets/menu-images/Small Plates/Chicken Tikka Skewers.jpg"],
       },
       {
         name: "Kerala Style Fried Chicken",
         price: "20",
         description: "Tender chicken marinated in a blend of spices, deep-fried to crispy perfection.",
+        images: ["assets/menu-images/Small Plates/Kerala Fried Chicken.jpg"],
       },
       {
         name: "Chili Chicken",
         price: "20",
         description: "Crispy chicken tossed with onions, bell peppers, and spicy chili sauce.",
+        images: ["assets/menu-images/Small Plates/Chili Chicken.jpg"],
       },
       {
         name: "Regular OR Peri Peri Fries",
         price: "14",
         description: "Crispy golden fries tossed with a smoky, spicy peri-peri seasoning.",
+        images: ["assets/menu-images/Small Plates/Regular or Peri Peri fries.jpg"],
       },
     ],
   },
@@ -396,8 +440,7 @@ const menuSections = document.querySelector("#menu-sections");
 const searchInput = document.querySelector("#menu-search");
 const emptyState = document.querySelector("#empty-state");
 const itemModal = document.querySelector("#item-modal");
-const modalImage = document.querySelector("#modal-image");
-const modalPlaceholder = document.querySelector("#modal-placeholder");
+const modalImageWrap = document.querySelector(".item-modal__image-wrap");
 const modalCategory = document.querySelector("#modal-category");
 const modalTitle = document.querySelector("#modal-title");
 const modalPrice = document.querySelector("#modal-price");
@@ -420,6 +463,10 @@ function dirhamPrice(value) {
       }),
     )
     .join("<br />");
+}
+
+function itemImages(item) {
+  return item.images || (item.image ? [item.image] : []);
 }
 
 function renderTabs() {
@@ -449,7 +496,7 @@ function renderMenu() {
           <div class="menu-grid">
             ${section.items
               .map((item, itemIndex) => {
-                const image = item.image || "";
+                const images = itemImages(item);
                 return `
                   <article
                     class="menu-card"
@@ -459,17 +506,13 @@ function renderMenu() {
                     data-category="${section.id}"
                     data-section-title="${section.title}"
                     data-item-index="${itemIndex}"
-                    data-name="${item.name}"
-                    data-price="${money(item.price)}"
-                    data-description="${item.description || ""}"
-                    data-image="${image}"
                   >
                     <div class="item-title">
                       <h4>${item.name}</h4>
                     </div>
                     ${item.description ? `<p>${item.description}</p>` : ""}
                     <strong class="item-price">${dirhamPrice(item.price)}</strong>
-                    <span class="image-hint">${image ? "Tap to view image" : "Image ready slot"}</span>
+                    <span class="image-hint">${images.length ? "Tap to view image" : "Image ready slot"}</span>
                   </article>
                 `;
               })
@@ -483,23 +526,31 @@ function renderMenu() {
 
 function openItemModal(card) {
   activeModalTrigger = card;
-  const image = card.dataset.image;
+  const section = menuData.find((menuSection) => menuSection.id === card.dataset.category);
+  const item = section?.items[Number(card.dataset.itemIndex)];
+  const images = item ? itemImages(item) : [];
 
-  modalCategory.textContent = card.dataset.sectionTitle || "";
-  modalTitle.textContent = card.dataset.name || "";
-  modalDescription.textContent = card.dataset.description || "Description coming soon.";
-  modalPrice.innerHTML = dirhamPrice(card.dataset.price || "");
+  modalCategory.textContent = section?.title || "";
+  modalTitle.textContent = item?.name || "";
+  modalDescription.textContent = item?.description || "Description coming soon.";
+  modalPrice.innerHTML = dirhamPrice(item?.price || "");
+  modalImageWrap.innerHTML = "";
 
-  if (image) {
-    modalImage.src = image;
-    modalImage.alt = card.dataset.name || "Menu item";
-    modalImage.hidden = false;
-    modalPlaceholder.hidden = true;
+  if (images.length) {
+    const gallery = document.createElement("div");
+    gallery.className = `item-modal__gallery${images.length === 1 ? " is-single" : ""}`;
+    images.forEach((image, index) => {
+      const img = document.createElement("img");
+      img.src = image;
+      img.alt = images.length === 1 ? item.name : `${item.name} ${index + 1}`;
+      gallery.appendChild(img);
+    });
+    modalImageWrap.appendChild(gallery);
   } else {
-    modalImage.removeAttribute("src");
-    modalImage.alt = "";
-    modalImage.hidden = true;
-    modalPlaceholder.hidden = false;
+    const placeholder = document.createElement("div");
+    placeholder.className = "item-modal__placeholder";
+    placeholder.textContent = "Image slot";
+    modalImageWrap.appendChild(placeholder);
   }
 
   itemModal.hidden = false;
