@@ -439,6 +439,7 @@ const categoryTabs = document.querySelector("#category-tabs");
 const menuSections = document.querySelector("#menu-sections");
 const searchInput = document.querySelector("#menu-search");
 const emptyState = document.querySelector("#empty-state");
+const offersGrid = document.querySelector("#offers-grid");
 const itemModal = document.querySelector("#item-modal");
 const modalImageWrap = document.querySelector(".item-modal__image-wrap");
 const modalCategory = document.querySelector("#modal-category");
@@ -467,6 +468,35 @@ function dirhamPrice(value) {
 
 function itemImages(item) {
   return item.images || (item.image ? [item.image] : []);
+}
+
+function renderOffers() {
+  const offers = Array.isArray(window.offersData) ? window.offersData : [];
+
+  if (!offersGrid) return;
+
+  if (!offers.length) {
+    offersGrid.innerHTML = `
+      <article>
+        <span>Offers</span>
+        <strong>Offers coming soon</strong>
+        <p>Please check again for current restaurant specials.</p>
+      </article>
+    `;
+    return;
+  }
+
+  offersGrid.innerHTML = offers
+    .map(
+      (offer) => `
+        <article>
+          <span>${offer.label || "Offer"}</span>
+          <strong>${offer.title || ""}</strong>
+          ${offer.description ? `<p>${offer.description}</p>` : ""}
+        </article>
+      `,
+    )
+    .join("");
 }
 
 function renderTabs() {
@@ -589,6 +619,7 @@ function updateMenu() {
   emptyState.hidden = visibleItemCount > 0;
 }
 
+renderOffers();
 renderTabs();
 renderMenu();
 
