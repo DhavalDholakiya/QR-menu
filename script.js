@@ -13,13 +13,13 @@ const menuData = [
         name: "Upma",
         price: "14",
         description: "Classic vegetable upma with aromatic spices.",
-        images: ["assets/menu-images/Breakfast/Upma.jpg"],
+        images: ["assets/menu-images/Breakfast/Upma.webp"],
       },
       {
         name: "Stuffed Paratha's",
         price: "Aloo Paratha OR Methi Paratha 16\nCheese Paratha OR Paneer Paratha 19",
         description: "Fresh whole wheat stuffed parathas, served with yogurt & pickle.",
-        images: ["assets/menu-images/Breakfast/Stuffed Paratha.jpg"],
+        images: ["assets/menu-images/Breakfast/Stuffed Paratha.webp"],
       },
       {
         name: "Poori Bhaji",
@@ -36,13 +36,13 @@ const menuData = [
         price: "17",
         description:
           "A Gujarati Specialty! Spiced flatbread served with a flavorful dry potato bhaji.",
-        images: ["assets/menu-images/Breakfast/Thepla Platter.jpg"],
+        images: ["assets/menu-images/Breakfast/Thepla Platter.webp"],
       },
       {
         name: "Maska Bun",
         price: "Soft bun with sweet cream 6 | With Chai 8\nCheese Honey Maska Bun 9 | With Chai 11",
         description: "",
-        images: ["assets/menu-images/Breakfast/maska bun with sweet butter.jpg"],
+        images: ["assets/menu-images/Breakfast/maska bun with sweet butter.webp"],
       },
       {
         name: "Egg Paratha",
@@ -60,7 +60,7 @@ const menuData = [
         name: "Masala Omelette",
         price: "18",
         description: "Masala omelette with onions, tomatoes, chillies, toast & chai.",
-        images: ["assets/menu-images/Breakfast/Masala Omlette.jpg"],
+        images: ["assets/menu-images/Breakfast/Masala Omlette.webp"],
       },
     ],
   },
@@ -109,7 +109,7 @@ const menuData = [
         name: "Burgers",
         price: "Peri Peri Aloo Tikki 23 | Paneer 27\nMasala Fried Chicken 27 | Nihari 32",
         description: "Choose your favorite burger, served with fries & Soft Drink or water.",
-        images: ["assets/menu-images/Burger/Burgers.jpg"],
+        images: ["assets/menu-images/Burger/Burgers.webp"],
       },
     ],
   },
@@ -134,7 +134,7 @@ const menuData = [
     id: "hot-beverages",
     title: "Hot Beverages",
     items: [
-      { name: "Chai", price: "1.50", description: "", images: ["assets/menu-images/Hot Beverages/Chai.jpg"] },
+      { name: "Chai", price: "1.50", description: "", images: ["assets/menu-images/Hot Beverages/Chai.webp"] },
       { name: "Masala Chai", price: "4", description: "" },
       { name: "Masala Chai Big", price: "6", description: "" },
       { name: "Adrak Chai", price: "4", description: "" },
@@ -147,7 +147,7 @@ const menuData = [
         name: "Cuppuccino",
         price: "13",
         description: "",
-        images: ["assets/menu-images/Hot Beverages/Cappucino.jpg"],
+        images: ["assets/menu-images/Hot Beverages/Cappucino.webp"],
       },
       { name: "Spanish Latte", price: "16", description: "" },
       { name: "Desi Coffee", price: "2", description: "" },
@@ -159,21 +159,21 @@ const menuData = [
     id: "cold-beverages",
     title: "Cold Beverages",
     items: [
-      { name: "Iced Latte", price: "14", description: "", images: ["assets/menu-images/Cold Beverages/Iced latte.jpg"] },
+      { name: "Iced Latte", price: "14", description: "", images: ["assets/menu-images/Cold Beverages/Iced latte.webp"] },
       { name: "Iced Spanish Latte", price: "16", description: "" },
-      { name: "Cold Coffee", price: "15", description: "", images: ["assets/menu-images/Cold Beverages/Cold Coffee.jpg"] },
+      { name: "Cold Coffee", price: "15", description: "", images: ["assets/menu-images/Cold Beverages/Cold Coffee.webp"] },
       { name: "Lassi Sweet / Salty", price: "13", description: "" },
       { name: "Masala Chaas", price: "13", description: "" },
       { name: "Hibiscus Shikanji", price: "15", description: "" },
       { name: "Fresh Lime Soda / Water", price: "13", description: "" },
-      { name: "Fresh Orange Juice", price: "16", description: "", images: ["assets/menu-images/Cold Beverages/Orange Juice.jpg"] },
+      { name: "Fresh Orange Juice", price: "16", description: "", images: ["assets/menu-images/Cold Beverages/Orange Juice.webp"] },
       {
         name: "Mojito Mint / Passion Fruit",
         price: "16",
         description: "",
         images: [
-          "assets/menu-images/Cold Beverages/Mint Mojito.jpg",
-          "assets/menu-images/Cold Beverages/Passion Fruit Mojito.jpg",
+          "assets/menu-images/Cold Beverages/Mint Mojito.webp",
+          "assets/menu-images/Cold Beverages/Passion Fruit Mojito.webp",
         ],
       },
       { name: "Masala Cola", price: "13", description: "" },
@@ -208,8 +208,8 @@ const menuData = [
         description:
           "Crispy potato patties served with chutneys, sev and chaat masala, or crispy samosas topped with chickpeas, chutneys, and sev.",
         images: [
-          "assets/menu-images/Chaat/Aloo Tikki Chaat.jpg",
-          "assets/menu-images/Chaat/Samosa Chaat.jpg",
+          "assets/menu-images/Chaat/Aloo Tikki Chaat.webp",
+          "assets/menu-images/Chaat/Samosa Chaat.webp",
         ],
       },
       {
@@ -218,8 +218,8 @@ const menuData = [
         description:
           "Crispy samosa or potato fritter served inside soft pav with chutneys, and spices for a flavorful street-food twist.",
         images: [
-          "assets/menu-images/Chaat/Samosa Pav.jpg",
-          "assets/menu-images/Chaat/Vada Pav.jpg",
+          "assets/menu-images/Chaat/Samosa Pav.webp",
+          "assets/menu-images/Chaat/Vada Pav.webp",
         ],
       },
       {
@@ -227,7 +227,7 @@ const menuData = [
         price: "16",
         description:
           "Spiced black chickpeas with green chilies, onions, tomatoes and dry spices.",
-        images: ["assets/menu-images/Chaat/Kala Chaana Chaat.jpg"],
+        images: ["assets/menu-images/Chaat/Kala Chaana Chaat.webp"],
       },
       {
         name: "Papadi Cone OR Katori Chaat",
@@ -239,13 +239,13 @@ const menuData = [
         name: "Pav Bhaji",
         price: "24",
         description: "Spiced mashed vegetables served with butter-toasted pav.",
-        images: ["assets/menu-images/Chaat/Pav Bhaji.jpg"],
+        images: ["assets/menu-images/Chaat/Pav Bhaji.webp"],
       },
       {
         name: "Misal Pav",
         price: "24",
         description: "Spicy sprout curry topped with farsan, served with pav.",
-        images: ["assets/menu-images/Chaat/Misal Pav.jpg"],
+        images: ["assets/menu-images/Chaat/Misal Pav.webp"],
       },
     ],
   },
@@ -296,7 +296,7 @@ const menuData = [
         price: "33",
         description:
           "A rich, creamy mix of garden vegetables in a buttery tomato gravy with mild spices, served with paratha.",
-        images: ["assets/menu-images/Big Plates/veg makhni.jpg"],
+        images: ["assets/menu-images/Big Plates/veg makhni.webp"],
       },
       {
         name: "Veg OR Egg Bhurji Masala",
@@ -315,7 +315,7 @@ const menuData = [
         price: "33",
         description:
           "Tender chicken in a rich, creamy onion gravy with aromatic spices, served with paratha.",
-        images: ["assets/menu-images/Big Plates/Murg-e-nizami.jpg"],
+        images: ["assets/menu-images/Big Plates/Murg-e-nizami.webp"],
       },
       {
         name: "Chicken Kosha",
@@ -335,9 +335,9 @@ const menuData = [
     title: "Bread / Biryani",
     items: [
       { name: "Roti", price: "2", description: "" },
-      { name: "Plain Paratha", price: "6", description: "", images: ["assets/menu-images/Bread or biryani/Plain Paratha.jpg"] },
+      { name: "Plain Paratha", price: "6", description: "", images: ["assets/menu-images/Bread or biryani/Plain Paratha.webp"] },
       { name: "Laccha Paratha", price: "7", description: "" },
-      { name: "Bajra Roti", price: "7", description: "", images: ["assets/menu-images/Bread or biryani/Bajra roti.jpg"] },
+      { name: "Bajra Roti", price: "7", description: "", images: ["assets/menu-images/Bread or biryani/Bajra roti.webp"] },
       {
         name: "Paneer Biryani",
         price: "28",
@@ -348,7 +348,7 @@ const menuData = [
         price: "30",
         description:
           "Fragrant basmati rice layered with spiced chicken. Served with Raita, Pickle & Papad.",
-        images: ["assets/menu-images/Bread or biryani/Chicken biryani.jpg"],
+        images: ["assets/menu-images/Bread or biryani/Chicken biryani.webp"],
       },
     ],
   },
