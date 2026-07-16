@@ -11,4 +11,4 @@ temp/
 
 # Dependency folders, if added later
 node_modules/
-
+.qr_vendor/
