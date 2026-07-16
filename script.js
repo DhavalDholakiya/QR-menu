@@ -8,6 +8,7 @@ const menuData = [
         price: "14",
         description:
           "Flattened rice tossed with vegetables, green peas, onions, green chilies, mild spices, peanuts, and topped with sev and fresh green mango.",
+        images: ["assets/menu-images/Breakfast/Poha.webp"],
       },
       {
         name: "Upma",
@@ -25,11 +26,13 @@ const menuData = [
         name: "Poori Bhaji",
         price: "17",
         description: "Poori served with potato curry. Choice of dry or gravy bhaji.",
+        images: ["assets/menu-images/Breakfast/poori bhaji.webp"],
       },
       {
         name: "Chole Bhatura",
         price: "24",
         description: "Fluffy deep-fried flatbread served with chickpea curry.",
+        images: ["assets/menu-images/Breakfast/chole bhature.webp"],
       },
       {
         name: "Thepla Platter",
