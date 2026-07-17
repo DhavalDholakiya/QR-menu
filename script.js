@@ -45,13 +45,17 @@ const menuData = [
         name: "Maska Bun",
         price: "Soft bun with sweet cream 6 | With Chai 8\nCheese Honey Maska Bun 9 | With Chai 11",
         description: "",
-        images: ["assets/menu-images/Breakfast/maska bun with sweet butter.webp"],
+        images: [
+          "assets/menu-images/Breakfast/maska bun with sweet butter.webp",
+          "assets/menu-images/Breakfast/Maska bun honey & cheese.webp",
+        ],
       },
       {
         name: "Egg Paratha",
         price: "18",
         description:
           "Omelette with onions, green chilies, and fresh coriander rolled in a flaky paratha.",
+        images: ["assets/menu-images/Breakfast/egg paratha.webp"],
       },
       {
         name: "Egg Bhurji Pav",
@@ -76,6 +80,7 @@ const menuData = [
         price: "19",
         description:
           "A toasted sandwich loaded with melted cheese and spicy green chillies and capsicum served with crispy golden fries.",
+        images: ["assets/menu-images/Sandwich/chilli cheese sandwich.webp"],
       },
       {
         name: "Bombay Sandwich",
@@ -94,6 +99,7 @@ const menuData = [
         name: "Chicken Tikka Sandwich",
         price: "24",
         description: "Flavorful chicken tikka with green chutney, served with crispy fries.",
+        images: ["assets/menu-images/Sandwich/Chicken Tikka Sandwich.jpg"],
       },
       {
         name: "Chicken Mayo Sandwich",
@@ -138,11 +144,11 @@ const menuData = [
     title: "Hot Beverages",
     items: [
       { name: "Chai", price: "1.50", description: "", images: ["assets/menu-images/Hot Beverages/Chai.webp"] },
-      { name: "Masala Chai", price: "4", description: "" },
+      { name: "Masala Chai", price: "4", description: "", images: ["assets/menu-images/Hot Beverages/masala chai.webp"] },
       { name: "Masala Chai Big", price: "6", description: "" },
-      { name: "Adrak Chai", price: "4", description: "" },
+      { name: "Adrak Chai", price: "4", description: "", images: ["assets/menu-images/Hot Beverages/adrak chai.webp"] },
       { name: "Adrak Chai Big", price: "6", description: "" },
-      { name: "Black Tea", price: "5", description: "" },
+      { name: "Black Tea", price: "5", description: "", images: ["assets/menu-images/Hot Beverages/black tea.webp"] },
       { name: "Zafran Chai", price: "8", description: "" },
       { name: "Americano", price: "10", description: "" },
       { name: "Latte", price: "13", description: "" },
@@ -163,10 +169,18 @@ const menuData = [
     title: "Cold Beverages",
     items: [
       { name: "Iced Latte", price: "14", description: "", images: ["assets/menu-images/Cold Beverages/Iced latte.webp"] },
-      { name: "Iced Spanish Latte", price: "16", description: "" },
+      { name: "Iced Spanish Latte", price: "16", description: "", images: ["assets/menu-images/Cold Beverages/iced spanish latte.webp"] },
       { name: "Cold Coffee", price: "15", description: "", images: ["assets/menu-images/Cold Beverages/Cold Coffee.webp"] },
-      { name: "Lassi Sweet / Salty", price: "13", description: "" },
-      { name: "Masala Chaas", price: "13", description: "" },
+      {
+        name: "Lassi Sweet / Salty",
+        price: "13",
+        description: "",
+        images: [
+          "assets/menu-images/Cold Beverages/Lassi Sweet.webp",
+          "assets/menu-images/Cold Beverages/lassi salt.webp",
+        ],
+      },
+      { name: "Masala Chaas", price: "13", description: "", images: ["assets/menu-images/Cold Beverages/masala chaas.webp"] },
       { name: "Hibiscus Shikanji", price: "15", description: "" },
       { name: "Fresh Lime Soda / Water", price: "13", description: "" },
       { name: "Fresh Orange Juice", price: "16", description: "", images: ["assets/menu-images/Cold Beverages/Orange Juice.webp"] },
@@ -179,7 +193,7 @@ const menuData = [
           "assets/menu-images/Cold Beverages/Passion Fruit Mojito.webp",
         ],
       },
-      { name: "Masala Cola", price: "13", description: "" },
+      { name: "Masala Cola", price: "13", description: "", images: ["assets/menu-images/Cold Beverages/masala coke.webp"] },
       { name: "Milkshake", price: "20", description: "" },
       { name: "Soft Drink", price: "5", description: "" },
       { name: "Water", price: "2", description: "" },
@@ -204,6 +218,7 @@ const menuData = [
         name: "Dabeli",
         price: "13",
         description: "A sweet and spicy potato-filled bun topped with chutneys, peanuts, and sev.",
+        images: ["assets/menu-images/Chaat/Dabeli.webp"],
       },
       {
         name: "Aloo Tikki Chaat OR Samosa Chaat",
@@ -275,12 +290,14 @@ const menuData = [
         price: "27",
         description:
           "A complete Indian meal with gravy sabzi, dry sabzi, dal, rice, 4 rotis, appetizer, sweet, and water.",
+        images: ["assets/menu-images/Mimi's special/Veg thali.webp"],
       },
       {
         name: "Chicken Thali",
         price: "30",
         description:
           "A wholesome platter with chicken gravy, dry sabzi, dal, rice, 4 rotis, appetizer, sweet, and water.",
+        images: ["assets/menu-images/Mimi's special/Chicken Thali.webp"],
       },
     ],
   },
@@ -325,11 +342,13 @@ const menuData = [
         price: "33",
         description:
           "Tender chicken slow-cooked in a rich, spiced onion-based gravy for an authentic homestyle flavor. Served with paratha.",
+        images: ["assets/menu-images/Big Plates/Chicken kosha.png"],
       },
       {
         name: "Butter Chicken",
         price: "33",
         description: "Tender chicken in a rich, creamy tomato gravy, served with paratha.",
+        images: ["assets/menu-images/Big Plates/Butter Chicken.webp"],
       },
     ],
   },
@@ -339,7 +358,7 @@ const menuData = [
     items: [
       { name: "Roti", price: "2", description: "" },
       { name: "Plain Paratha", price: "6", description: "", images: ["assets/menu-images/Bread or biryani/Plain Paratha.webp"] },
-      { name: "Laccha Paratha", price: "7", description: "" },
+      { name: "Laccha Paratha", price: "7", description: "", images: ["assets/menu-images/Bread or biryani/lachha paratha.webp"] },
       { name: "Bajra Roti", price: "7", description: "", images: ["assets/menu-images/Bread or biryani/Bajra roti.webp"] },
       {
         name: "Paneer Biryani",
@@ -432,6 +451,7 @@ const menuData = [
         price: "8",
         description:
           "Rich golden tea infused with turmeric, saffron, cinnamon, and honey for a warm, fragrant, comforting sip.",
+        images: ["assets/menu-images/Hot Beverages/Golden tea.webp"],
       },
       { name: "Tea Infusions", price: "11", description: "" },
     ],
