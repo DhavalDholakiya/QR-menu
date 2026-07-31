@@ -62,6 +62,7 @@ const menuData = [
         price: "18",
         description:
           "Scrambled eggs cooked with onions, chilies and tomatoes, served with buttery pav.",
+        images: ["assets/menu-images/Breakfast/egg bhurji.webp"],
       },
       {
         name: "Masala Omelette",
@@ -94,6 +95,7 @@ const menuData = [
         price: "22",
         description:
           "A fluffy masala omelette tucked between toasted bread slices, served with crispy golden fries. Available with and without cheese.",
+        images: ["assets/menu-images/Sandwich/Omelette Sandwich.webp"],
       },
       {
         name: "Chicken Tikka Sandwich",
@@ -145,13 +147,13 @@ const menuData = [
     items: [
       { name: "Chai", price: "1.50", description: "", images: ["assets/menu-images/Hot Beverages/Chai.webp"] },
       { name: "Masala Chai", price: "4", description: "", images: ["assets/menu-images/Hot Beverages/masala chai.webp"] },
-      { name: "Masala Chai Big", price: "6", description: "" },
+      { name: "Masala Chai Big", price: "6", description: "", images: ["assets/menu-images/Hot Beverages/Masala chai big.webp"] },
       { name: "Adrak Chai", price: "4", description: "", images: ["assets/menu-images/Hot Beverages/adrak chai.webp"] },
-      { name: "Adrak Chai Big", price: "6", description: "" },
+      { name: "Adrak Chai Big", price: "6", description: "", images: ["assets/menu-images/Hot Beverages/Adrak chai big.webp"] },
       { name: "Black Tea", price: "5", description: "", images: ["assets/menu-images/Hot Beverages/black tea.webp"] },
-      { name: "Zafran Chai", price: "8", description: "" },
-      { name: "Americano", price: "10", description: "" },
-      { name: "Latte", price: "13", description: "" },
+      { name: "Zafran Chai", price: "8", description: "", images: ["assets/menu-images/Hot Beverages/Zafran chai.webp"] },
+      { name: "Americano", price: "10", description: "", images: ["assets/menu-images/Hot Beverages/americano.webp"] },
+      { name: "Latte", price: "13", description: "", images: ["assets/menu-images/Hot Beverages/Latte.webp"] },
       {
         name: "Cuppuccino",
         price: "13",
@@ -161,7 +163,7 @@ const menuData = [
       { name: "Spanish Latte", price: "16", description: "" },
       { name: "Desi Coffee", price: "2", description: "" },
       { name: "Masala Coffee", price: "3", description: "" },
-      { name: "Espresso", price: "Single 8 | Double 11", description: "" },
+      { name: "Espresso", price: "Single 8 | Double 11", description: "", images: ["assets/menu-images/Hot Beverages/espresso.webp"] },
     ],
   },
   {
@@ -207,12 +209,17 @@ const menuData = [
         name: "Pani Puri",
         price: "12",
         description: "Bite-sized crispy puris bursting with spicy, tangy, and sweet flavors.",
+        images: ["assets/menu-images/Chaat/Pani Puri .webp"],
       },
       {
         name: "Sev Puri OR Dahi Puri OR Bhel Puri",
         price: "13",
         description:
           "Classic Indian street snack with tangy chutneys, mashed potatoes, crunchy toppings and pomegranate.",
+        images: [
+          "assets/menu-images/Chaat/Sev Puri.webp",
+          "assets/menu-images/Chaat/bhel-puri.webp",
+        ],
       },
       {
         name: "Dabeli",
@@ -252,6 +259,10 @@ const menuData = [
         price: "20",
         description:
           "Crispy papdi cones or katori filled with spicy potatoes, brown sprouts, chickpeas, chutneys, and sev.",
+        images: [
+          "assets/menu-images/Chaat/Cone Chaat.webp",
+          "assets/menu-images/Chaat/Katori-chaat.webp",
+        ],
       },
       {
         name: "Pav Bhaji",

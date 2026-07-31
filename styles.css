@@ -611,7 +611,10 @@ footer span {
   height: 100%;
   min-height: 220px;
   max-height: 48vh;
-  object-fit: cover;
+  object-fit: contain;
+  background:
+    linear-gradient(135deg, rgba(63, 22, 10, 0.95), rgba(23, 42, 33, 0.9)),
+    var(--forest);
   scroll-snap-align: center;
 }
 
