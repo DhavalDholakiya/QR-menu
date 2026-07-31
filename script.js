@@ -13,7 +13,7 @@ const menuData = [
       {
         name: "Upma",
         price: "14",
-        description: "Classic vegetable upma with aromatic spices.",
+        description: "Classic suji upma cooked with vegetables and aromatic spices.",
         images: ["assets/menu-images/Breakfast/Upma.webp"],
       },
       {
@@ -43,7 +43,7 @@ const menuData = [
       },
       {
         name: "Maska Bun",
-        price: "Soft bun with sweet cream 6 | With Chai 8\nCheese Honey Maska Bun 9 | With Chai 11",
+        price: "Soft bun with Sweet Cream 8\nCheese & Honey Maska Bun 11",
         description: "",
         images: [
           "assets/menu-images/Breakfast/maska bun with sweet butter.webp",
@@ -54,7 +54,7 @@ const menuData = [
         name: "Egg Paratha",
         price: "18",
         description:
-          "Omelette with onions, green chilies, and fresh coriander rolled in a flaky paratha.",
+          "Masala omelette cooked with onion, green chillies, tomatoes and coriander rolled in a flaky wheat paratha.",
         images: ["assets/menu-images/Breakfast/egg paratha.webp"],
       },
       {
@@ -67,7 +67,8 @@ const menuData = [
       {
         name: "Masala Omelette",
         price: "18",
-        description: "Masala omelette with onions, tomatoes, chillies, toast & chai.",
+        description:
+          "Classic omelette cooked with onions, green chillies, tomatoes and coriander; served with butter toast on side.",
         images: ["assets/menu-images/Breakfast/Masala Omlette.webp"],
       },
     ],
@@ -80,21 +81,21 @@ const menuData = [
         name: "Chilli Cheese Sandwich",
         price: "19",
         description:
-          "A toasted sandwich loaded with melted cheese and spicy green chillies and capsicum served with crispy golden fries.",
+          "Grilled sandwich loaded with cheese, green chillies and capsicum. Served with crispy golden fries.",
         images: ["assets/menu-images/Sandwich/chilli cheese sandwich.webp"],
       },
       {
         name: "Bombay Sandwich",
         price: "22",
         description:
-          "Toasted sandwich layered with fresh vegetables, green chutney, served with crispy golden fries. Available with or without cheese.",
+          "Grilled sandwich layered with fresh vegetables and green chutney. Served with crispy golden fries. Available with or without cheese.",
         images: ["assets/menu-images/Sandwich/bombay-sandwich.jpg"],
       },
       {
         name: "Omelette Sandwich",
         price: "22",
         description:
-          "A fluffy masala omelette tucked between toasted bread slices, served with crispy golden fries. Available with and without cheese.",
+          "Fluffy masala omelette tucked between bread slices and grilled. Served with crispy golden fries. Available with or with out cheese.",
         images: ["assets/menu-images/Sandwich/Omelette Sandwich.webp"],
       },
       {
@@ -107,14 +108,14 @@ const menuData = [
         name: "Chicken Mayo Sandwich",
         price: "24",
         description:
-          "Tender chicken mixed with creamy mayonnaise in toasted bread, served with crispy fries.",
+          "Tender chicken mixed with creamy mayonnaise and grilled between the bread slices. Served with crispy golden fries.",
         images: ["assets/menu-images/Sandwich/Chicken Mayo Sandwich.jpg"],
       },
       {
         name: "Wraps",
         price: "Aloo 20 | Paneer 25 | Chicken 25",
         description:
-          "Your choice of aloo, paneer, or chicken wrapped with fresh vegetables and flavorful sauces in a wheat or white paratha, served with fries or salad.",
+          "Your choice of aloo, paneer, or chicken wrapped with fresh vegetables and flavorful sauces in a wheat or white flat bread, served with fries or salad.",
       },
       {
         name: "Burgers",
@@ -224,14 +225,15 @@ const menuData = [
       {
         name: "Dabeli",
         price: "13",
-        description: "A sweet and spicy potato-filled bun topped with chutneys, peanuts, and sev.",
+        description:
+          "A sweet and spicy potato-filled bun topped with chutneys, peanuts, pomegranate and sev.",
         images: ["assets/menu-images/Chaat/Dabeli.webp"],
       },
       {
         name: "Aloo Tikki Chaat OR Samosa Chaat",
         price: "17",
         description:
-          "Crispy potato patties served with chutneys, sev and chaat masala, or crispy samosas topped with chickpeas, chutneys, and sev.",
+          "Crispy potato patties served with chutneys, sev, onions and tomatoes, or crispy samosas topped with chickpeas, chutneys, and sev.",
         images: [
           "assets/menu-images/Chaat/Aloo Tikki Chaat.webp",
           "assets/menu-images/Chaat/Samosa Chaat.webp",
@@ -285,7 +287,7 @@ const menuData = [
       {
         name: "Pakora's",
         price:
-          "Aloo OR Methi OR Onion 15 (served with Chai)\nChilli 12 | Cheese Corn 16 | Mix Pakora 18\nPaneer 19",
+          "Aloo OR Methi OR Onion 15 (served with Chai)\nChilli 13 | Cheese Corn 16 | Mix Pakora 18\nPaneer 19",
         description:
           "Crispy, golden fritters made with vegetables coated in spiced gram flour batter and deep-fried to perfection. All pakoras are served in portions of 8 pieces. Mix Pakora is served in 12 pieces.",
         images: ["assets/menu-images/Pakora's/mix pakora.jpg"],
@@ -318,9 +320,9 @@ const menuData = [
     items: [
       {
         name: "Dal Fry OR Tadka",
-        price: "25",
+        price: "22",
         description:
-          "Yellow lentils cooked to perfection and finished with a fragrant garlic and spice tempering for a rich, homestyle flavor. Served with rice.",
+          "Yellow lentils cooked to perfection and finished with a fragrant garlic and spice tempering for a rich, homestyle flavor. Served with papad and pickle.",
       },
       {
         name: "Veg Makhani",
@@ -330,19 +332,13 @@ const menuData = [
         images: ["assets/menu-images/Big Plates/veg makhni.webp"],
       },
       {
-        name: "Veg OR Egg Bhurji Masala",
-        price: "33",
-        description:
-          "Mixed vegetables or eggs sauteed with onions, tomatoes, and Indian spices. Served with paratha.",
-      },
-      {
         name: "Paneer Tikka Lababdar",
         price: "33",
         description:
           "Paneer tikka cubes in a rich, creamy tomato gravy with aromatic spices, served with paratha.",
       },
       {
-        name: "Murg-E-Nizami",
+        name: "Chicken Hyderabadi",
         price: "33",
         description:
           "Tender chicken in a rich, creamy onion gravy with aromatic spices, served with paratha.",
@@ -368,19 +364,20 @@ const menuData = [
     title: "Bread / Biryani",
     items: [
       { name: "Roti", price: "2", description: "" },
-      { name: "Plain Paratha", price: "6", description: "", images: ["assets/menu-images/Bread or biryani/Plain Paratha.webp"] },
-      { name: "Laccha Paratha", price: "7", description: "", images: ["assets/menu-images/Bread or biryani/lachha paratha.webp"] },
+      { name: "Plain Paratha", price: "5", description: "", images: ["assets/menu-images/Bread or biryani/Plain Paratha.webp"] },
+      { name: "Laccha Paratha", price: "6", description: "", images: ["assets/menu-images/Bread or biryani/lachha paratha.webp"] },
       { name: "Bajra Roti", price: "7", description: "", images: ["assets/menu-images/Bread or biryani/Bajra roti.webp"] },
       {
         name: "Paneer Biryani",
         price: "28",
-        description: "Spiced basmati rice layered with paneer.",
+        description:
+          "Fragrant Basmati rice with aromatic spices and layered with paneer. Served with raita, papad and pickle.",
       },
       {
         name: "Chicken Biryani",
         price: "30",
         description:
-          "Fragrant basmati rice layered with spiced chicken. Served with Raita, Pickle & Papad.",
+          "Fragrant basmati rice layered with spiced chicken. Served with raita, pickle & papad.",
         images: ["assets/menu-images/Bread or biryani/Chicken biryani.webp"],
       },
     ],
@@ -447,19 +444,19 @@ const menuData = [
       { name: "Green Tea", price: "8", description: "" },
       {
         name: "CCF Tea",
-        price: "8",
+        price: "9",
         description:
           "A soothing blend of cumin, coriander, and fennel with a warm, aromatic, and comforting flavor.",
       },
       {
         name: "Immunity Booster",
-        price: "8",
+        price: "9",
         description:
           "A spicy, aromatic blend of ginger, pepper, turmeric, cinnamon, and cloves for a warm and revitalizing tea experience.",
       },
       {
         name: "Golden Tea",
-        price: "8",
+        price: "9",
         description:
           "Rich golden tea infused with turmeric, saffron, cinnamon, and honey for a warm, fragrant, comforting sip.",
         images: ["assets/menu-images/Hot Beverages/Golden tea.webp"],
