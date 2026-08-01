@@ -116,6 +116,7 @@ const menuData = [
         price: "Aloo 20 | Paneer 25 | Chicken 25",
         description:
           "Your choice of aloo, paneer, or chicken wrapped with fresh vegetables and flavorful sauces in a wheat or white flat bread, served with fries or salad.",
+        images: ["assets/menu-images/Wraps.webp"],
       },
       {
         name: "Burgers",
@@ -161,9 +162,8 @@ const menuData = [
         description: "",
         images: ["assets/menu-images/Hot Beverages/Cappucino.webp"],
       },
-      { name: "Spanish Latte", price: "16", description: "" },
-      { name: "Desi Coffee", price: "2", description: "" },
-      { name: "Masala Coffee", price: "3", description: "" },
+      { name: "Spanish Latte", price: "16", description: "", images: ["assets/menu-images/Hot Beverages/Spanish latte.webp"] },
+      { name: "Desi Coffee | Masala Coffee", price: "2 | 3", description: "", images: ["assets/menu-images/Hot Beverages/desi coffee and Masala coffee.webp"] },
       { name: "Espresso", price: "Single 8 | Double 11", description: "", images: ["assets/menu-images/Hot Beverages/espresso.webp"] },
     ],
   },
@@ -184,8 +184,8 @@ const menuData = [
         ],
       },
       { name: "Masala Chaas", price: "13", description: "", images: ["assets/menu-images/Cold Beverages/masala chaas.webp"] },
-      { name: "Hibiscus Shikanji", price: "15", description: "" },
-      { name: "Fresh Lime Soda / Water", price: "13", description: "" },
+      { name: "Hibiscus Shikanji", price: "15", description: "", images: ["assets/menu-images/Cold Beverages/Hibiscus shikanji.webp"] },
+      { name: "Fresh Lime Soda / Water", price: "13", description: "", images: ["assets/menu-images/Cold Beverages/fresh lime soda.webp"] },
       { name: "Fresh Orange Juice", price: "16", description: "", images: ["assets/menu-images/Cold Beverages/Orange Juice.webp"] },
       {
         name: "Mojito Mint / Passion Fruit",
@@ -197,7 +197,7 @@ const menuData = [
         ],
       },
       { name: "Masala Cola", price: "13", description: "", images: ["assets/menu-images/Cold Beverages/masala coke.webp"] },
-      { name: "Milkshake", price: "20", description: "" },
+      { name: "Milkshake", price: "20", description: "", images: ["assets/menu-images/Cold Beverages/Milkshake.webp"] },
       { name: "Soft Drink", price: "5", description: "" },
       { name: "Water", price: "2", description: "" },
     ],
@@ -219,6 +219,7 @@ const menuData = [
           "Classic Indian street snack with tangy chutneys, mashed potatoes, crunchy toppings and pomegranate.",
         images: [
           "assets/menu-images/Chaat/Sev Puri.webp",
+          "assets/menu-images/Chaat/Dahi puri.webp",
           "assets/menu-images/Chaat/bhel-puri.webp",
         ],
       },
@@ -323,6 +324,10 @@ const menuData = [
         price: "22",
         description:
           "Yellow lentils cooked to perfection and finished with a fragrant garlic and spice tempering for a rich, homestyle flavor. Served with papad and pickle.",
+        images: [
+          "assets/menu-images/Big Plates/dal fry.webp",
+          "assets/menu-images/Big Plates/dal tadka.webp",
+        ],
       },
       {
         name: "Veg Makhani",
@@ -372,6 +377,7 @@ const menuData = [
         price: "28",
         description:
           "Fragrant Basmati rice with aromatic spices and layered with paneer. Served with raita, papad and pickle.",
+        images: ["assets/menu-images/Bread or biryani/Paneer Biryani.webp"],
       },
       {
         name: "Chicken Biryani",
