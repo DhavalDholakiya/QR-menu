@@ -1,7 +1,7 @@
 const menuData = [
   {
     id: "breakfast",
-    title: "Breakfast (Served with Chai)",
+    title: "All Day Breakfast (Served with Chai)",
     items: [
       {
         name: "Poha",
@@ -75,7 +75,7 @@ const menuData = [
   },
   {
     id: "sandwiches-wraps-burgers",
-    title: "Sandwiches / Wraps / Burgers",
+    title: "Sandwiches/Wraps/Burgers",
     items: [
       {
         name: "Chilli Cheese Sandwich",
@@ -120,26 +120,9 @@ const menuData = [
       },
       {
         name: "Burgers",
-        price: "Peri Peri Aloo Tikki 23 | Paneer 27\nMasala Fried Chicken 27 | Nihari 32",
+        price: "Peri Peri Aloo Tikki 23 | Paneer 27\nMasala Fried Chicken 27",
         description: "Choose your favorite burger, served with fries & Soft Drink or water.",
         images: ["assets/menu-images/Burger/Burgers.webp"],
-      },
-    ],
-  },
-  {
-    id: "rice-bowls",
-    title: "Rice Bowls",
-    items: [
-      {
-        name: "Grilled Chicken OR Vegetable with Herb Rice Bowl",
-        price: "22",
-        description: "",
-      },
-      {
-        name: "Nasi Goreng Rice Bowl",
-        price: "24",
-        description:
-          "Indonesian-style fried rice with your choice of vegetables or chicken, tossed with aromatic spices.",
       },
     ],
   },
@@ -196,7 +179,7 @@ const menuData = [
           "assets/menu-images/Cold Beverages/Passion Fruit Mojito.webp",
         ],
       },
-      { name: "Masala Cola", price: "13", description: "", images: ["assets/menu-images/Cold Beverages/masala coke.webp"] },
+      { name: "Masala Cola", price: "14", description: "", images: ["assets/menu-images/Cold Beverages/masala coke.webp"] },
       { name: "Milkshake", price: "20", description: "", images: ["assets/menu-images/Cold Beverages/Milkshake.webp"] },
       { name: "Soft Drink", price: "5", description: "" },
       { name: "Water", price: "2", description: "" },
@@ -283,7 +266,7 @@ const menuData = [
   },
   {
     id: "pakoras",
-    title: "Pakora's",
+    title: "Pakora",
     items: [
       {
         name: "Pakora's",
@@ -317,7 +300,7 @@ const menuData = [
   },
   {
     id: "big-plate",
-    title: "Big Plate",
+    title: "Mains",
     items: [
       {
         name: "Dal Fry OR Tadka",
@@ -331,50 +314,40 @@ const menuData = [
       },
       {
         name: "Veg Makhani",
-        price: "33",
+        price: "28",
         description:
           "A rich, creamy mix of garden vegetables in a buttery tomato gravy with mild spices, served with paratha.",
         images: ["assets/menu-images/Big Plates/veg makhni.webp"],
       },
       {
-        name: "Paneer Tikka Lababdar",
-        price: "33",
+        name: "Paneer Tikka Masala",
+        price: "30",
         description:
           "Paneer tikka cubes in a rich, creamy tomato gravy with aromatic spices, served with paratha.",
       },
       {
         name: "Chicken Hyderabadi",
-        price: "33",
+        price: "30",
         description:
           "Tender chicken in a rich, creamy onion gravy with aromatic spices, served with paratha.",
         images: ["assets/menu-images/Big Plates/Murg-e-nizami.webp"],
       },
       {
         name: "Chicken Kosha",
-        price: "33",
+        price: "30",
         description:
           "Tender chicken slow-cooked in a rich, spiced onion-based gravy for an authentic homestyle flavor. Served with paratha.",
         images: ["assets/menu-images/Big Plates/Chicken kosha.png"],
       },
       {
         name: "Butter Chicken",
-        price: "33",
+        price: "30",
         description: "Tender chicken in a rich, creamy tomato gravy, served with paratha.",
         images: ["assets/menu-images/Big Plates/Butter Chicken.webp"],
       },
-    ],
-  },
-  {
-    id: "bread-biryani",
-    title: "Bread / Biryani",
-    items: [
-      { name: "Roti", price: "2", description: "" },
-      { name: "Plain Paratha", price: "5", description: "", images: ["assets/menu-images/Bread or biryani/Plain Paratha.webp"] },
-      { name: "Laccha Paratha", price: "6", description: "", images: ["assets/menu-images/Bread or biryani/lachha paratha.webp"] },
-      { name: "Bajra Roti", price: "7", description: "", images: ["assets/menu-images/Bread or biryani/Bajra roti.webp"] },
       {
         name: "Paneer Biryani",
-        price: "28",
+        price: "30",
         description:
           "Fragrant Basmati rice with aromatic spices and layered with paneer. Served with raita, papad and pickle.",
         images: ["assets/menu-images/Bread or biryani/Paneer Biryani.webp"],
@@ -386,6 +359,16 @@ const menuData = [
           "Fragrant basmati rice layered with spiced chicken. Served with raita, pickle & papad.",
         images: ["assets/menu-images/Bread or biryani/Chicken biryani.webp"],
       },
+    ],
+  },
+  {
+    id: "bread-biryani",
+    title: "Add-ons",
+    items: [
+      { name: "Roti", price: "2", description: "" },
+      { name: "Plain Paratha", price: "5", description: "", images: ["assets/menu-images/Bread or biryani/Plain Paratha.webp"] },
+      { name: "Laccha Paratha", price: "6", description: "", images: ["assets/menu-images/Bread or biryani/lachha paratha.webp"] },
+      { name: "Bajra Roti", price: "7", description: "", images: ["assets/menu-images/Bread or biryani/Bajra roti.webp"] },
     ],
   },
   {
@@ -445,7 +428,7 @@ const menuData = [
   },
   {
     id: "mimis-tea-blend",
-    title: "Mimi's Tea Blend",
+    title: "Mimi's Tea Blends",
     items: [
       { name: "Green Tea", price: "8", description: "" },
       {
@@ -471,6 +454,22 @@ const menuData = [
     ],
   },
 ];
+
+const categoryOrder = [
+  "breakfast",
+  "mimis-special",
+  "big-plate",
+  "bread-biryani",
+  "sandwiches-wraps-burgers",
+  "chaat",
+  "small-plates",
+  "pakoras",
+  "mimis-tea-blend",
+  "cold-beverages",
+  "hot-beverages",
+];
+
+menuData.sort((a, b) => categoryOrder.indexOf(a.id) - categoryOrder.indexOf(b.id));
 
 const categoryTabs = document.querySelector("#category-tabs");
 const menuSections = document.querySelector("#menu-sections");
@@ -507,6 +506,11 @@ function itemImages(item) {
   return item.images || (item.image ? [item.image] : []);
 }
 
+function formatSectionTitle(title) {
+  if (title !== "All Day Breakfast (Served with Chai)") return title;
+  return 'All Day Breakfast <span class="category-heading__note">(Served with Chai)</span>';
+}
+
 function renderOffers() {
   const offers = Array.isArray(window.offersData) ? window.offersData : [];
 
@@ -528,7 +532,7 @@ function renderOffers() {
       (offer) => `
         <article>
           <span>${offer.label || "Offer"}</span>
-          <strong>${offer.title || ""}</strong>
+          ${offer.title ? `<strong>${offer.title}</strong>` : ""}
           ${offer.description ? `<p>${offer.description}</p>` : ""}
         </article>
       `,
@@ -557,7 +561,7 @@ function renderMenu() {
       (section) => `
         <section class="menu-category" data-category="${section.id}">
           <div class="category-heading">
-            <h3>${section.title}</h3>
+            <h3>${formatSectionTitle(section.title)}</h3>
             <span>${section.items.length} items</span>
           </div>
           <div class="menu-grid">
