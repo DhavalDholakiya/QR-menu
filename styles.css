@@ -313,6 +313,23 @@ footer span {
   box-shadow: var(--shadow);
 }
 
+.offers-panel--poster {
+  display: flex;
+  justify-content: center;
+  border: 0;
+  margin: 18px auto 6px;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.offers-poster {
+  display: block;
+  width: min(100%, 480px);
+  height: auto;
+  border-radius: 4px;
+}
+
 .offers-panel h2 {
   margin-bottom: 0;
   font-size: 1.95rem;
